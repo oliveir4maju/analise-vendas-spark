@@ -43,7 +43,7 @@ df_stream = spark.readStream \
     .schema(schema) \
     .option("header", "true") \
     .option("maxFilesPerTrigger", 1) \
-    .load('/analise_vendas_spark/streaming/dados')
+    .load('~/analise_vendas_spark/streaming/dados')
 
 
 
