@@ -43,7 +43,7 @@ df_stream = spark.readStream \
     .schema(schema) \
     .option("header", "true") \
     .option("maxFilesPerTrigger", 1) \
-    .load('~/analise_vendas_spark/streaming/dados')
+    .load('/home/ubuntu/analise-vendas-spark/streaming/dados')
 
 
 
@@ -59,7 +59,7 @@ def write_to_db(batch_df,batch_id):
         .mode("append") \
         .save()
     
-diretorio = '~/analise_vendas_spark/streaming/diretorio_de_controle'
+diretorio = '/home/ubuntu/analise-vendas-spark/streaming/diretorio_de_controle'
 
 strcal = df_stream.writeStream.foreachBatch(write_to_db).outputMode("append") \
     .trigger(processingTime="10 second") \
