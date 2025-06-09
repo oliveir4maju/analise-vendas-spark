@@ -12,11 +12,11 @@ os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64"
 os.environ["SPARK_HOME"] = "/opt/spark-3.5.6-bin-hadoop3"
 
 # PYSPARK com Python 3.11
-os.environ["PYSPARK_DRIVER_PYTHON"] = "/usr/bin/python3.11"
-os.environ["PYSPARK_PYTHON"] = "/usr/bin/python3.11"
+os.environ["PYSPARK_DRIVER_PYTHON"] = "python3"
+os.environ["PYSPARK_PYTHON"] = "python3"
 
 # HADOOP
-os.environ["HADOOP_HOME"] = "/opt/hadoop"
+os.environ["HADOOP_HOME"] = "/opt/spark-3.5.6-bin-hadoop3"
 
 
 # Dados de conexão
