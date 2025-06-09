@@ -59,7 +59,7 @@ def write_to_db(batch_df,batch_id):
         .mode("append") \
         .save()
     
-diretorio = '/analise_vendas_spark/streaming/diretorio_de_controle'
+diretorio = '~/analise_vendas_spark/streaming/diretorio_de_controle'
 
 strcal = df_stream.writeStream.foreachBatch(write_to_db).outputMode("append") \
     .trigger(processingTime="10 second") \
