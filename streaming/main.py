@@ -9,7 +9,7 @@ import time
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64"
 
 # SPARK
-os.environ["SPARK_HOME"] = "/opt/spark-3.5.1"
+os.environ["SPARK_HOME"] = "/opt/spark-3.5.6-bin-hadoop3"
 
 # PYSPARK com Python 3.11
 os.environ["PYSPARK_DRIVER_PYTHON"] = "/usr/bin/python3.11"
