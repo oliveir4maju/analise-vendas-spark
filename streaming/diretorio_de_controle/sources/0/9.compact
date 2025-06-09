@@ -1,0 +1,11 @@
+v1
+{"path":"file:///C:/analise_vendas_spark/streaming/dados/Vendas1.csv","timestamp":1749429808249,"batchId":0}
+{"path":"file:///C:/analise_vendas_spark/streaming/dados/Vendas2.csv","timestamp":1749429808286,"batchId":1}
+{"path":"file:///C:/analise_vendas_spark/streaming/dados/Vendas3.csv","timestamp":1749429808305,"batchId":2}
+{"path":"file:///C:/analise_vendas_spark/streaming/dados/Vendas4.csv","timestamp":1749429808314,"batchId":3}
+{"path":"file:///C:/analise_vendas_spark/streaming/dados/Vendas5.csv","timestamp":1749429808324,"batchId":4}
+{"path":"file:///C:/analise_vendas_spark/streaming/dados/Vendas6.csv","timestamp":1749429808332,"batchId":5}
+{"path":"file:///C:/analise_vendas_spark/streaming/dados/Vendas7.csv","timestamp":1749429808339,"batchId":6}
+{"path":"file:///C:/analise_vendas_spark/streaming/dados/Vendas8.csv","timestamp":1749429808346,"batchId":7}
+{"path":"file:///C:/analise_vendas_spark/streaming/dados/Vendas9.csv","timestamp":1749429808352,"batchId":8}
+{"path":"file:///C:/analise_vendas_spark/streaming/dados/Vendas10.csv","timestamp":1749429808358,"batchId":9}
