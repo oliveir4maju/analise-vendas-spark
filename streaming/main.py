@@ -3,7 +3,9 @@ import pyspark
 import pandas as pd
 import os
 import time
+from dotenv import load_dotenv
 
+load_dotenv('/home/ubuntu/analise-vendas-spark/streaming/.env')
 
 # JAVA 11
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64"
